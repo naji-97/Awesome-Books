@@ -7,9 +7,59 @@
  <title>Awsome Books</title>
  <link rel="stylesheet" href="./styles/index.css">
 </head>
-<body>
- 
 
+<body>
+ <header>
+     <nav class="flex">
+         <h5 class="logo">Awsome Books</h5>
+         <ul class="links flex">
+             <li><a id="list" class="active" href="#">List</a></li> |
+             <li><a id="add-new" href="#">Add new</a></li> |
+             <li><a id="contact" href="#">Contact</a></li>
+         </ul>
+
+     </nav>
+ </header>
+ <main class="container ">
+     <div class="content">
+         <h6 id="date" class="date">date</h6>
+         <article class="list-container">
+             <div class="title-container">
+                 <h1 class="title-bar">All awesome books</h1>
+             </div>
+             <div class="book-list"></div>
+         </article>
+         <!-- <span class="bar"></span> -->
+         <!-- <br><br> -->
+         <article class="new-book-container non-display">
+             <div class="form-title">
+                 <h2 class="title-bar">Add a book</h2>
+             <!-- </div><br> -->
+             <form action="" class="add-form">
+                 <input type="text" class="title" placeholder="Title">
+                 <input type="text" class="author" placeholder="Author">
+                 <input type="submit" class="add-btn" value="Add">
+             </form>
+         </article>
+     </div>
+ </main>
+
+ <section id="contact-sect" class="contact flex flex-direc-column non-display">
+     <h1 class="contact-title">Contact Information</h1>
+     <p class="contact-description">Do have  any question or you just want to say "Hello"?</p>
+     <ul class="contact-info">
+         <li>Our e-mail: mail@mail.com</li>
+         <li>Our phone number: 00435876533</li>
+         <li>Our adress: streetname 22, 54657 City, Country</li>
+     </ul>
+
+ </section>
+
+ <footer class="footer flex">
+     <h5 class="logo">Awsome Books</h5>
+     <p>© 2022 Awsome_Books –All rights reserved  .</p>
+
+ </footer>
  <script type="module" src="./index.js"></script>
 </body>
 </html>
