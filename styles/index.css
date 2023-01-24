@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+/* Global Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #000;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #262626;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.grid {
+  display: grid;
+}
+
+.btn {
+  border: none;
+  background: none;
+}
+
+.proper-width {
+  width: 700px;
+}
+
+.flex-direc-column {
+  flex-direction: column;
+}
+
+/* End Global Style */
+
+/* Start Nav bar */
+nav {
+  background: #503c50;
+  color: #fff;
+  border-bottom: 2px solid #804444;
+}
+
+.links li a {
+  padding: 15px;
+  color: #fff;
+}
+
+.date {
+  align-self: end;
+  padding: 10px 30px 30px;
+}
+
+.active {
+  color: red;
+}
+
+.content {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-container {
+  padding: 10px;
+  width: 600px;
+}
+
+.book-list {
+  margin: 10px auto;
+  padding: 10px 0;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.light {
+  background-color: #f0f0f0;
+}
+
+.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.bar {
+  border-bottom: 4px solid #ec5242;
+  width: 5rem;
+  display: block;
+  text-align: center;
+}
+
+.author,
+.title {
+  height: 40px;
+  border: 1px solid black;
+  width: 300px;
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.title-bar {
+  text-align: center;
+  padding: 10px;
+}
+
+.add-btn {
+  background-color: green;
+  width: 60px;
+  border-radius: 8px;
+  border: none;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  margin: 10px 10px 0 0;
+  cursor: pointer;
+}
+
+.remove {
+  background-color: rgba(255, 0, 0, 0.726);
+  width: 60px;
+  border-radius: 8px;
+  border: none;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+.contact {
+  padding: 50px;
+}
+
+.contact-title {
+  padding: 20px;
+}
+
+.contact-description {
+  padding: 30px 10px;
+}
+
+.contact-info li {
+  padding: 5px;
+}
+
+.footer {
+  background: #503c50;
+  color: #fff;
+  border-bottom: 2px solid #804444;
+  font-size: 16px;
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+/* Display Classes */
+.non-display {
+  display: none;
+}
+
+.links li .active {
+  color: hsl(14deg 100% 88%);
+}
